@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 /**
- * COMPONENT
+ * HOME
  */
 export const Home = (props) => {
   const username = useSelector((state) => state.auth.username);
